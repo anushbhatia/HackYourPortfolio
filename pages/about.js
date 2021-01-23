@@ -2,7 +2,8 @@ import { useState, useEffect } from 'react';
 import { useTheme } from 'next-themes';
 import NextLink from 'next/link';
 import Container from './Navbar';
-
+import Timeline from './Timeline';
+import Cards from './Cards'
 
 export default function About() {
 
@@ -15,8 +16,11 @@ export default function About() {
         </h1>
               <h2 h2 className="prose text-gray-600 dark:text-gray-400 mb-16">
                   I have been ardent practitioner of cloud computing for over 4 years and have experience across multiple platforms. On the other hand , I am active UI/UX designer, having worked with multiple startups to revamp their products into a more appealing look. As far as full stack goes, I have had my fair share of work in majority of the stacks like MERN,MEAN etc.
-    </h2>               
-    </div>
+    </h2> 
+        {/* <Timeline></Timeline>    */}
+    <Cards ></Cards>    
+          </div>
+ 
           </div>
   );
 }
