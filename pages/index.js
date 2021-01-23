@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Container from './Navbar'
 import emoji from "react-easy-emoji";
+import Footer from './Footer';
 var ReactRotatingText = require('react-rotating-text');
 export default function Home() {
   return (
@@ -15,9 +16,14 @@ export default function Home() {
               I am into <ReactRotatingText items={["Designing", "UI/UX", "Cloud Computing", "Web Development", "Open Source", "Mentoring"]} />
         </h2>
         <h2 className="prose text-gray-600 dark:text-gray-400 mb-16">
-        A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact.
+          A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact.
         </h2>
+        <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
+          Skills
+      </h3>
+      <Footer/>
       </div>
+
       </div>
     )
 }

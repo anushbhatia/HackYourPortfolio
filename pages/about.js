@@ -4,6 +4,7 @@ import NextLink from 'next/link';
 import Container from './Navbar';
 import Timeline from './Timeline';
 import Cards from './Cards'
+import Footer from './Footer';
 
 export default function About() {
 
@@ -19,8 +20,8 @@ export default function About() {
     </h2> 
         {/* <Timeline></Timeline>    */}
     <Cards ></Cards>    
-          </div>
- 
+      </div>
+      <Footer/>
           </div>
   );
 }
