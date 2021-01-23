@@ -4,9 +4,10 @@
 export default function About() {
 
   return (
-      <div className="bg-white dark:bg-black">
-          <div class="mx-10 pt-15">
-   <div class="grid gap-6 mb-8 md:grid-cols-2">
+    <div className="bg-white dark:bg-black">
+      
+          <div class=" pt-15">
+            <div class="grid gap-6 mb-12 md:grid-cols-1">
               <div class="min-w-0 p-4 bg-white rounded-lg shadow-xs dark:bg-gray-800">
                 <h4 class="mb-4 font-semibold text-gray-600 dark:text-gray-300">
                   Revenue
