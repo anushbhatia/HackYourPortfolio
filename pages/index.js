@@ -11,11 +11,11 @@ export default function Home() {
         <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-2 text-black dark:text-white">
           Hey, Anush Here 
         </h1>
-        <h2 className="greeting-nickname font-medium text-xl md:text-2xl tracking-tight mb-2 text-black dark:text-white">
+        <h2 className="greeting-nickname font-medium text-xl md:text-2xl tracking-tight mb-2 text-gray-600 dark:text-white">
               I am into <ReactRotatingText items={["Designing", "UI/UX", "Cloud Computing", "Web Development", "Open Source", "Mentoring"]} />
         </h2>
         <h2 className="prose text-gray-600 dark:text-gray-400 mb-16">
-        I have been ardent practitioner of cloud computing for over 4 years and have experience across multiple platforms. On the other hand , I am active UI/UX designer, having worked with multiple startups to revamp their products into a more appealing look. As far as full stack goes, I have had my fair share of work in majority of the stacks like MERN,MEAN etc.
+        A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact.
         </h2>
       </div>
       </div>
