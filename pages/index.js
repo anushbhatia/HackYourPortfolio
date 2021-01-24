@@ -4,6 +4,8 @@ import Container from './Navbar'
 import emoji from "react-easy-emoji";
 import Footer from './Footer';
 import ProjectCard from './Projects';
+import IconFromLibrary from './Skills';
+import Subscribe from './Subsribe';
 var ReactRotatingText = require('react-rotating-text');
 export default function Home() {
   return (
@@ -40,6 +42,10 @@ export default function Home() {
           href="https://bdsc-cert.herokuapp.com/"
           icon="certificate"
         />
+         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
+          Skills</h3>
+        <IconFromLibrary />
+        <Subscribe />
         <Footer />
 
       </div>
