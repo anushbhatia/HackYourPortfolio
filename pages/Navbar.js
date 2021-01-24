@@ -22,6 +22,9 @@ export default function Container() {
           <NextLink href="/about">
             <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">About</a>
           </NextLink>
+          <NextLink href="/blog">
+            <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">Blog</a>
+          </NextLink>
         </div>
       </nav>
     </div>
