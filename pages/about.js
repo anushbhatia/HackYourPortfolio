@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { useTheme } from 'next-themes';
 import NextLink from 'next/link';
 import Container from './Navbar';
-import Timeline from './Timeline';
 import Cards from './Cards'
 import Footer from './Footer';
 const Talk = ({ title, link, children }) => (
