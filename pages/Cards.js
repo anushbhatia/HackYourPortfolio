@@ -35,25 +35,28 @@ export default function About() {
 
   return (
     <div className="bg-white dark:bg-black">
-      <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
+      <h3 className="font-bold text-3xl tracking-tight mb-4 text-black dark:text-white">
         Timeline
       </h3>
       <Year>2017-2021</Year>
       
           <div class=" pt-15">
             <div class="grid gap-6 mb-12 md:grid-cols-1">
-              <div class="min-w-0 p-4 bg-gray-100 rounded-lg shadow-xs dark:bg-gray-800">
-                <h4 class="mb-4 font-semibold text-gray-800 dark:text-gray-300">
-             SRM Instiute Of Science And Technology
+          <div class="min-w-0 p-4 bg-white rounded-lg shadow-md shadow-xs dark:bg-gray-800">
+          <div class="flex justify-between items-center">
+                <h4 class="mb-2 font-semibold text-gray-800 dark:text-gray-300">
+                SRM Instiute Of Science And Technology
                 </h4>
+                <a class="px-2 py-1 bg-gray-600 text-gray-100 font-bold rounded hover:bg-gray-500" href="#">B.Tech</a>
+        </div>
             <div className="flex items-center p-2 rounded-xl">
       <div class="flex items-center space-x-4">
       <Image
               className="center"
         src="/SrmSeal.png"
         alt="Picture of the author"
-        width={300}
-        height={300}
+        width={200}
+        height={200}
             />
             </div>
                 <div className="flex-grow p-3">
@@ -76,10 +79,14 @@ export default function About() {
       
           <div class=" pt-15">
             <div class="grid gap-6 mb-12 md:grid-cols-1">
-              <div class="min-w-0 p-4 bg-gray-100 rounded-lg shadow-xs dark:bg-gray-800">
-                <h4 class="mb-4 font-semibold text-gray-800 dark:text-gray-300">
-             Delhi Public School Vadodara
+          <div class="min-w-0 p-4 bg-white rounded-lg shadow-md shadow-xs dark:bg-gray-800">
+          <div class="flex justify-between items-center">
+                <h4 class="mb-2 font-semibold text-gray-800 dark:text-gray-300">
+              Delhi Public School
                 </h4>
+                
+            <a class="px-2 py-1 bg-gray-600 text-gray-100 font-bold rounded hover:bg-gray-500" href="#">10th & 12th</a>
+        </div>
             <div className="flex items-center p-2 rounded-xl">
       <div class="flex items-center space-x-4">
       <Image

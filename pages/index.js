@@ -45,6 +45,8 @@ export default function Home() {
          <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
           Skills</h3>
         <IconFromLibrary />
+        <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
+          Newsletter</h3>
         <Subscribe />
         <Footer />
 
